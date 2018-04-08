@@ -1,0 +1,123 @@
+ERROR - 2018-04-01 15:10:49 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) /var/www/html/master-sikadik/system/database/drivers/mysqli/mysqli_driver.php 201
+ERROR - 2018-04-01 15:10:49 --> Unable to connect to the database
+ERROR - 2018-04-01 15:10:49 --> Severity: Warning --> include(/var/www/html/master-sikadik/application/errors/html/error_db.php): failed to open stream: No such file or directory /var/www/html/master-sikadik/system/core/Exceptions.php 182
+ERROR - 2018-04-01 15:10:49 --> Severity: Warning --> include(): Failed opening '/var/www/html/master-sikadik/application/errors/html/error_db.php' for inclusion (include_path='.:/usr/share/php') /var/www/html/master-sikadik/system/core/Exceptions.php 182
+ERROR - 2018-04-01 15:14:31 --> 404 Page Not Found: /index
+ERROR - 2018-04-01 15:14:31 --> Severity: Warning --> include(/var/www/html/master-sikadik/application/errors/html/error_404.php): failed to open stream: No such file or directory /var/www/html/master-sikadik/system/core/Exceptions.php 182
+ERROR - 2018-04-01 15:14:31 --> Severity: Warning --> include(): Failed opening '/var/www/html/master-sikadik/application/errors/html/error_404.php' for inclusion (include_path='.:/usr/share/php') /var/www/html/master-sikadik/system/core/Exceptions.php 182
+ERROR - 2018-04-01 15:14:50 --> 404 Page Not Found: /index
+ERROR - 2018-04-01 15:16:16 --> 404 Page Not Found: /index
+ERROR - 2018-04-01 15:55:36 --> Severity: error --> Exception: Unable to locate the model you have specified: MLogin /var/www/html/master-sikadik/system/core/Loader.php 348
+ERROR - 2018-04-01 15:58:51 --> Severity: Notice --> Undefined property: Portal::$session /var/www/html/master-sikadik/application/controllers/Portal.php 7
+ERROR - 2018-04-01 15:58:51 --> Severity: error --> Exception: Call to a member function userdata() on null /var/www/html/master-sikadik/application/controllers/Portal.php 7
+ERROR - 2018-04-01 15:59:28 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:28 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:28 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:28 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:28 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:28 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:28 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:28 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:55 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:55 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:55 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:55 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:55 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:55 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:55 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:55 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:55 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:55 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:55 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:58 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:58 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:58 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:58 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:58 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:58 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:58 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:58 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:58 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:58 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:58 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 15:59:58 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 16:00:08 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 16:00:09 --> 404 Page Not Found: Localhost/master_sikadik
+ERROR - 2018-04-01 16:00:49 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:00:49 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:00:49 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:01:00 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:01:03 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:01:57 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:02:36 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:02:36 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:04:22 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:04:23 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:04:45 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:04:46 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:05:02 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:05:02 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:05:12 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:05:12 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:05:30 --> Query error: Unknown column 'login_terakhir' in 'field list' - Invalid query: UPDATE `ak_data_user` SET `login_terakhir` = '2018-04-01'
+WHERE `id_user` = '1'
+ERROR - 2018-04-01 16:05:53 --> 404 Page Not Found: Dashboard/index
+ERROR - 2018-04-01 16:05:58 --> 404 Page Not Found: Login/index
+ERROR - 2018-04-01 16:06:03 --> 404 Page Not Found: Dashboard/index
+ERROR - 2018-04-01 16:08:02 --> 404 Page Not Found: Dashboard/index
+ERROR - 2018-04-01 16:10:36 --> Severity: Notice --> Undefined variable: Nav /var/www/html/master-sikadik/application/views/Master.php 94
+ERROR - 2018-04-01 16:10:36 --> Severity: Notice --> Undefined variable: Level /var/www/html/master-sikadik/application/views/Master.php 95
+ERROR - 2018-04-01 16:10:36 --> Severity: Notice --> Undefined variable: Level /var/www/html/master-sikadik/application/views/Master.php 95
+ERROR - 2018-04-01 16:10:36 --> Severity: Notice --> Undefined variable: Level /var/www/html/master-sikadik/application/views/Master.php 133
+ERROR - 2018-04-01 16:10:36 --> Severity: Notice --> Undefined variable: Nama /var/www/html/master-sikadik/application/views/Master.php 164
+ERROR - 2018-04-01 16:10:36 --> Severity: Notice --> Undefined variable: Nama /var/www/html/master-sikadik/application/views/Master.php 170
+ERROR - 2018-04-01 16:10:36 --> Severity: Notice --> Undefined variable: Level /var/www/html/master-sikadik/application/views/Master.php 170
+ERROR - 2018-04-01 16:10:36 --> Severity: Notice --> Undefined variable: Konten /var/www/html/master-sikadik/application/views/Master.php 190
+ERROR - 2018-04-01 16:10:36 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:10:37 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:11:01 --> Severity: Notice --> Undefined variable: Level /var/www/html/master-sikadik/application/views/Master.php 95
+ERROR - 2018-04-01 16:11:01 --> Severity: Notice --> Undefined variable: Level /var/www/html/master-sikadik/application/views/Master.php 95
+ERROR - 2018-04-01 16:11:01 --> Severity: Notice --> Undefined variable: Level /var/www/html/master-sikadik/application/views/Master.php 133
+ERROR - 2018-04-01 16:11:01 --> Severity: Notice --> Undefined variable: Nama /var/www/html/master-sikadik/application/views/Master.php 164
+ERROR - 2018-04-01 16:11:01 --> Severity: Notice --> Undefined variable: Nama /var/www/html/master-sikadik/application/views/Master.php 170
+ERROR - 2018-04-01 16:11:01 --> Severity: Notice --> Undefined variable: Level /var/www/html/master-sikadik/application/views/Master.php 170
+ERROR - 2018-04-01 16:11:01 --> Severity: Notice --> Undefined variable: Konten /var/www/html/master-sikadik/application/views/Master.php 190
+ERROR - 2018-04-01 16:11:01 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:11:02 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:11:46 --> Severity: Notice --> Undefined variable: Level /var/www/html/master-sikadik/application/views/Master.php 95
+ERROR - 2018-04-01 16:11:46 --> Severity: Notice --> Undefined variable: Level /var/www/html/master-sikadik/application/views/Master.php 95
+ERROR - 2018-04-01 16:11:46 --> Severity: Notice --> Undefined variable: Level /var/www/html/master-sikadik/application/views/Master.php 133
+ERROR - 2018-04-01 16:11:46 --> Severity: Notice --> Undefined variable: Level /var/www/html/master-sikadik/application/views/Master.php 170
+ERROR - 2018-04-01 16:11:46 --> Severity: Notice --> Undefined variable: Konten /var/www/html/master-sikadik/application/views/Master.php 190
+ERROR - 2018-04-01 16:11:46 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:11:47 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:12:08 --> Severity: Notice --> Undefined variable: Konten /var/www/html/master-sikadik/application/views/Master.php 190
+ERROR - 2018-04-01 16:12:08 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:12:09 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:13:01 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:13:01 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:13:46 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:13:46 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:14:22 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:14:23 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:14:52 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:14:53 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:15:02 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:15:02 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:15:21 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:15:21 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:15:25 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:15:26 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:15:39 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:15:39 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:15:48 --> 404 Page Not Found: Assets/datatables
+ERROR - 2018-04-01 16:15:48 --> 404 Page Not Found: Assets/bootstrap
+ERROR - 2018-04-01 16:15:57 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:16:03 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:16:25 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:16:26 --> 404 Page Not Found: Assets/datatables
+ERROR - 2018-04-01 16:16:26 --> 404 Page Not Found: Assets/bootstrap
+ERROR - 2018-04-01 16:16:35 --> 404 Page Not Found: Assets/AdminLTE
+ERROR - 2018-04-01 16:16:35 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:16:45 --> 404 Page Not Found: Assets/adminLTE
+ERROR - 2018-04-01 16:17:23 --> 404 Page Not Found: Laporan/index
