@@ -113,7 +113,7 @@
 				} else {
 					alert("Both Date is Required");
 				}
-			});
+			}); 
 		});
 		$('#tgl_awal').inputmask('yyyy-mm-dd', { 'placeholder': 'yyyy-mm-dd' })
 	    $('#tgl_akhir').inputmask('yyyy-mm-dd', { 'placeholder': 'yyyy-mm-dd' })
