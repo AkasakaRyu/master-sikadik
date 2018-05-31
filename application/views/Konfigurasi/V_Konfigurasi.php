@@ -18,7 +18,7 @@
 								</h3>
 							</center>
 						</div>
-						<?= form_open_multipart('backup/restoredb') ?>
+						<?= form_open_multipart('konfigurasi/restoredb') ?>
 							<div class="box-body row">
 								<div class="col-lg-12" style="margin-bottom: 2%">
 									<input type="file" name="file" id="file" class="form-control" required>
@@ -27,7 +27,7 @@
 									<button type="submit" class="btn btn-block btn-primary"><i class="fa fa-upload"></i> Restore Data</button>
 								</div>
 								<div class="col-lg-6">
-									<a href="<?= base_url('backup/backupdb') ?>" class="btn btn-block btn-danger"><i class="fa fa-download"></i> Backup Data</a>
+									<a href="<?= base_url('konfigurasi/backupdb') ?>" class="btn btn-block btn-danger"><i class="fa fa-download"></i> Backup Data</a>
 								</div>
 							</div>
 						</form>
