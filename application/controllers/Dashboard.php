@@ -18,4 +18,9 @@ class Dashboard extends CI_Controller {
 		$this->load->view('Master',$data);
 	}
 
+	public function logout() {
+		$this->session->sess_destroy();
+		redirect('portal','refresh');
+	}
+
 }

@@ -96,6 +96,7 @@
 								<li class="<?php if($Nav=='Dashboard') : echo 'active'; endif; ?>"><a href="<?= base_url('dashboard') ?>"><i class="fa fa-home"></i> Dashboard <span class="sr-only">(current)</span></a></li>
 								<?php if($Level=="Master" OR $Level=="Pemilik") : ?>
 									<li class="<?php if($Nav=='Laporan') : echo 'active'; endif; ?>"><a href="<?= base_url('laporan') ?>"><i class="fa fa-book"></i> Laporan <span class="sr-only">(current)</span></a></li>
+									<li class="<?php if($Nav=='Konfigurasi') : echo 'active'; endif; ?>"><a href="<?= base_url('konfigurasi') ?>"><i class="fa fa-gears"></i> Konfigurasi <span class="sr-only">(current)</span></a></li>
 								<?php endif ?>
 							</ul>
 						</div>
