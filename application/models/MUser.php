@@ -60,7 +60,6 @@ class MUser extends CI_Model {
 							'nm_user' => $this->input->post('nm_user'),
 							'login_user' => $this->input->post('login_user'),
 							'pass_user' => $this->hash_pwd($this->input->post('pass_user')),
-							'level_user' => $this->input->post('level_user')
 						);
 			$this->db->where('id_user',$id_user)
 					 ->update($this->data_user,$data);

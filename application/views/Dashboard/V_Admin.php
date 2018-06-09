@@ -23,7 +23,7 @@
 								<th>Usia</th>
 								<th>Lahir</th>
 								<th>Alamat</th>
-								<th>Jenis Kelamin</th>
+								<th>Gender</th>
 								<th>Status</th>
 							</thead>
 							<tbody></tbody>
@@ -256,7 +256,7 @@
 					$("#tgl_lahir_pasien").val(data.tgl_lahir_pasien);
 					$("#jenis_kelamin_pasien").val(data.jenis_kelamin_pasien).change();
 					$("#Hapus").removeAttr("disabled");
-					$("#id_pasien").removeAttr("disabled");
+					//$("#id_pasien").removeAttr("disabled");
 					$("#tanggal_kunjungan_pasien").attr("disabled","true");
 				}
 				/*complete: function(){
