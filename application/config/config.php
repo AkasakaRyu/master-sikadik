@@ -324,7 +324,7 @@ $config['cache_query_string'] = FALSE;
 | https://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = 'akihabara';
+$config['encryption_key'] = 'akasaka';
 
 /*
 |--------------------------------------------------------------------------
@@ -378,9 +378,9 @@ $config['encryption_key'] = 'akihabara';
 |
 */
 $config['sess_driver'] = 'database';
-$config['sess_cookie_name'] = 'sikadik_kuki';
+$config['sess_cookie_name'] = 'ak_cookie';
 $config['sess_expiration'] = 7200;
-$config['sess_save_path'] = 'ak_data_log';
+$config['sess_save_path'] = 'ak_data_sistem_log';
 $config['sess_match_ip'] = TRUE;
 $config['sess_time_to_update'] = 300;
 $config['sess_regenerate_destroy'] = TRUE;
@@ -400,7 +400,7 @@ $config['sess_regenerate_destroy'] = TRUE;
 |       'cookie_httponly') will also affect sessions.
 |
 */
-$config['cookie_prefix']	= 'ak';
+$config['cookie_prefix']	= '';
 $config['cookie_domain']	= '';
 $config['cookie_path']		= '/';
 $config['cookie_secure']	= FALSE;
@@ -448,11 +448,11 @@ $config['global_xss_filtering'] = TRUE;
 | 'csrf_regenerate' = Regenerate token on every submission
 | 'csrf_exclude_uris' = Array of URIs which ignore CSRF checks
 */
-$config['csrf_protection'] = FALSE;
-$config['csrf_token_name'] = 'csrf_sikadik';
-$config['csrf_cookie_name'] = 'csrf_sikadik_kuki';
+$config['csrf_protection'] = TRUE;
+$config['csrf_token_name'] = 'akasaka_token';
+$config['csrf_cookie_name'] = 'akasaka_csrf_cookie';
 $config['csrf_expire'] = 7200;
-$config['csrf_regenerate'] = TRUE;
+$config['csrf_regenerate'] = FALSE;
 $config['csrf_exclude_uris'] = array();
 
 /*
@@ -502,7 +502,7 @@ $config['time_reference'] = date_default_timezone_set("Asia/Jakarta");
 | Note: You need to have eval() enabled for this to work.
 |
 */
-$config['rewrite_short_tags'] = FALSE;
+$config['rewrite_short_tags'] = TRUE;
 
 /*
 |--------------------------------------------------------------------------
