@@ -38,7 +38,7 @@
 				<div class="pull-right hidden-xs">
 					<b>Version</b> 1.1812.<?= CI_VERSION ?>
 				</div>
-				<strong>Copyright &copy; 2018.</strong> Developed with <i class="fa fa-heart" style="color:red"></i> Untuk Adik Kecil Tercinta.
+				<strong>Copyright &copy; 2018.</strong> Developed with <i class="fa fa-heart" style="color:red"></i> Untuk 最愛の妹.
 			</footer>
 		</div>
 		<?php $this->load->view('template/master/js/js_page_master') ?>
