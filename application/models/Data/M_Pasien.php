@@ -66,7 +66,7 @@ class M_Pasien extends CI_Model {
 		$hitung_data = $this->db->like(
 			'pasien_id',$first_alphabet
 		)->get($this->pasien)->num_rows();
-		return $first_alphabet.str_pad($hitung_data+1, 6, "0", STR_PAD_LEFT);
+		return $first_alphabet.date('y')."-".str_pad($hitung_data+1, 3, "0", STR_PAD_LEFT);
 	}
 
 	public function simpan($data) {

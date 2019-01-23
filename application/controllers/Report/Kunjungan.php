@@ -24,13 +24,18 @@ class Kunjungan extends CI_Controller {
 		$datatb = array();
 		$no = 0;
 		foreach($list as $data) {
+			if($data->usia==0 OR $data->usia=="") {
+				$usia = $this->m->hitung_usia_detail($data->pasien_tanggal_lahir);
+			} else {
+				$usia = $data->usia;
+			}
 			$no++;
 			$row = array();
 			$row[] = $data->kunjungan_tanggal;
 			$row[] = $data->pasien_id;
 			$row[] = $data->pasien_nama;
 			$row[] = $data->pasien_jenis_kelamin;
-			$row[] = $data->pasien_usia;
+			$row[] = $usia;
 			$row[] = $data->pasien_tanggal_lahir;
 			$row[] = $data->pasien_alamat;
 			$row[] = $data->pasien_status;
