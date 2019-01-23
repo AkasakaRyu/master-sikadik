@@ -4,7 +4,7 @@
 	<head>
 		<?php $this->load->view('template/master/v_header') ?>
 	</head>
-	<body class="hold-transition skin-blue sidebar-mini">
+	<body class="hold-transition skin-green sidebar-mini">
 		<!-- Site wrapper -->
 		<div class="wrapper">
 			<header class="main-header">
@@ -26,7 +26,7 @@
 								<li><?= $Brc ?></li>
 							<?php endforeach ?>
 						<?php else : ?>
-							<li><i class="fa fa-dashboard"></i> Home</li>
+							<li><i class="fa fa-home"></i> Home</li>
 						<?php endif ?>
 					</ol>
 				</section>
