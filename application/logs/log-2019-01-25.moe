@@ -281,3 +281,17 @@ ERROR - 2019-01-25 18:39:05 --> 404 Page Not Found: Assets
 ERROR - 2019-01-25 18:39:05 --> 404 Page Not Found: Assets
 ERROR - 2019-01-25 18:47:26 --> 404 Page Not Found: Assets
 ERROR - 2019-01-25 18:47:26 --> 404 Page Not Found: Assets
+ERROR - 2019-01-25 18:57:25 --> 404 Page Not Found: Assets
+ERROR - 2019-01-25 18:57:25 --> 404 Page Not Found: Assets
+ERROR - 2019-01-25 18:57:30 --> 404 Page Not Found: Assets
+ERROR - 2019-01-25 18:57:31 --> 404 Page Not Found: Assets
+ERROR - 2019-01-25 19:03:22 --> 404 Page Not Found: Assets
+ERROR - 2019-01-25 19:03:22 --> 404 Page Not Found: Assets
+ERROR - 2019-01-25 19:03:30 --> Query error: Unknown column 'ak_data_pasien.id_pasien' in 'on clause' - Invalid query: SELECT *
+FROM `ak_data_pasien`
+JOIN `ak_data_pasien_kunjungan` ON `ak_data_pasien`.`id_pasien`=`ak_data_pasien_kunjungan`.`id_pasien`
+WHERE `ak_data_pasien`.`deleted` = 0
+AND `kunjungan_tanggal` >= '2019-01-25'
+AND `kunjungan_tanggal` <= '2019-01-25'
+ERROR - 2019-01-25 19:06:36 --> 404 Page Not Found: Assets
+ERROR - 2019-01-25 19:06:36 --> 404 Page Not Found: Assets

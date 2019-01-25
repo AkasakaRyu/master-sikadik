@@ -20,8 +20,8 @@ class M_Kunjungan extends CI_Model {
 				'kunjungan_tanggal<=',$this->input->post('tgl_akhir')
 			)->join(
 				$this->kunjungan,
-				$this->pasien.'.id_pasien='.
-				$this->kunjungan.'.id_pasien'
+				$this->pasien.'.pasien_id='.
+				$this->kunjungan.'.pasien_id'
 			)->get($this->pasien)->result();
 		}
 	}
