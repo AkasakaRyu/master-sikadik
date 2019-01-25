@@ -29,5 +29,19 @@ class M_Kunjungan extends CI_Model {
 	public function simpan($data) {
 		return $this->db->insert($this->kunjungan,$data);
 	}
+
+	public function hitung_usia_detail($usia=NULL) {
+		if($usia==NULL)
+		{
+			$x = $this->input->post('pasien_tanggal_lahir');
+		}
+		else
+		{
+			$x = $usia;
+		}
+		$from = new DateTime($x);
+		$to = new DateTime('today');
+		return $from->diff($to)->y;
+	}
 	
 }
