@@ -20,14 +20,28 @@ class M_Kunjungan extends CI_Model {
 				'kunjungan_tanggal<=',$this->input->post('tgl_akhir')
 			)->join(
 				$this->kunjungan,
-				$this->pasien.'.id_pasien='.
-				$this->kunjungan.'.id_pasien'
+				$this->pasien.'.pasien_id='.
+				$this->kunjungan.'.pasien_id'
 			)->get($this->pasien)->result();
 		}
 	}
 
 	public function simpan($data) {
 		return $this->db->insert($this->kunjungan,$data);
+	}
+
+	public function hitung_usia_detail($usia=NULL) {
+		if($usia==NULL)
+		{
+			$x = $this->input->post('pasien_tanggal_lahir');
+		}
+		else
+		{
+			$x = $usia;
+		}
+		$from = new DateTime($x);
+		$to = new DateTime('today');
+		return $from->diff($to)->y;
 	}
 	
 }

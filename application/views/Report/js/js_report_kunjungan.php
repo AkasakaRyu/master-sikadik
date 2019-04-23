@@ -23,5 +23,16 @@
 				]
 			});
 		}
+		$('#filter').click(function(){
+			var tgl_awal = $('#tgl_awal').val();
+			var tgl_akhir = $('#tgl_akhir').val();
+			if(tgl_awal != '' && tgl_akhir !='') {
+				$('#dtTable').DataTable().destroy();
+				$('#dtTable tbody').empty();
+				fetch_data('yes', tgl_awal, tgl_akhir);
+			} else {
+				alert("Both Date is Required");
+			}
+		}); 
 	});
 </script>

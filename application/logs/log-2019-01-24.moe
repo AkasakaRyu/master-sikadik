@@ -1,0 +1,8 @@
+ERROR - 2019-01-24 11:23:37 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) C:\xampp\htdocs\master-sikadik\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2019-01-24 11:23:37 --> Unable to connect to the database
+ERROR - 2019-01-24 11:30:24 --> Query error: Table 'sikadik.ak_data_sistem_log' doesn't exist - Invalid query: SELECT `data`
+FROM `ak_data_sistem_log`
+WHERE `id` = 'rq4qq3tivi3vigql0l28m02vrm7t4gl9'
+AND `ip_address` = '::1'
+ERROR - 2019-01-24 11:30:24 --> Severity: Warning --> session_write_close(): Cannot call session save handler in a recursive manner Unknown 0
+ERROR - 2019-01-24 11:30:24 --> Severity: Warning --> session_write_close(): Failed to write session data using user defined save handler. (session.save_path: C:\xampp\tmp) Unknown 0

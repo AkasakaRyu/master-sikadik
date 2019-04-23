@@ -1,0 +1,2 @@
+ERROR - 2019-01-26 10:41:51 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'fathtech_sikadik'@'localhost' (using password: YES) /usr/local/var/www/master-sikadik/system/database/drivers/mysqli/mysqli_driver.php 201
+ERROR - 2019-01-26 10:41:51 --> Unable to connect to the database

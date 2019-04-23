@@ -1,0 +1,23 @@
+ERROR - 2019-01-28 09:20:29 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'fathtech_sikadik'@'localhost' (using password: YES) /usr/local/var/www/master-sikadik/system/database/drivers/mysqli/mysqli_driver.php 201
+ERROR - 2019-01-28 09:20:29 --> Unable to connect to the database
+ERROR - 2019-01-28 18:08:26 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'fathtech_sikadik'@'localhost' (using password: YES) /usr/local/var/www/master-sikadik/system/database/drivers/mysqli/mysqli_driver.php 201
+ERROR - 2019-01-28 18:08:26 --> Unable to connect to the database
+ERROR - 2019-01-28 18:10:52 --> 404 Page Not Found: Assets
+ERROR - 2019-01-28 18:10:54 --> 404 Page Not Found: Assets
+ERROR - 2019-01-28 18:11:00 --> 404 Page Not Found: Assets
+ERROR - 2019-01-28 18:11:06 --> 404 Page Not Found: Assets
+ERROR - 2019-01-28 18:11:13 --> 404 Page Not Found: Assets
+ERROR - 2019-01-28 18:11:28 --> 404 Page Not Found: Assets
+ERROR - 2019-01-28 18:11:59 --> Severity: error --> Exception: Call to undefined method M_Pasien::hitung_usia_detail() /usr/local/var/www/master-sikadik/application/controllers/Data/Pasien.php 28
+ERROR - 2019-01-28 18:12:05 --> Severity: error --> Exception: Call to undefined method M_Pasien::hitung_usia_detail() /usr/local/var/www/master-sikadik/application/controllers/Data/Pasien.php 28
+ERROR - 2019-01-28 18:12:09 --> 404 Page Not Found: Assets
+ERROR - 2019-01-28 18:12:11 --> 404 Page Not Found: Assets
+ERROR - 2019-01-28 18:12:21 --> 404 Page Not Found: Assets
+ERROR - 2019-01-28 18:12:26 --> 404 Page Not Found: Assets
+ERROR - 2019-01-28 18:12:35 --> 404 Page Not Found: Assets
+ERROR - 2019-01-28 18:12:36 --> 404 Page Not Found: Assets
+ERROR - 2019-01-28 18:12:36 --> Severity: error --> Exception: Call to undefined method M_Pasien::hitung_usia_detail() /usr/local/var/www/master-sikadik/application/controllers/Data/Pasien.php 28
+ERROR - 2019-01-28 18:13:30 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) /usr/local/var/www/master-sikadik/system/database/drivers/mysqli/mysqli_driver.php 201
+ERROR - 2019-01-28 18:13:30 --> Unable to connect to the database
+ERROR - 2019-01-28 18:14:18 --> 404 Page Not Found: Assets
+ERROR - 2019-01-28 18:14:18 --> 404 Page Not Found: Assets

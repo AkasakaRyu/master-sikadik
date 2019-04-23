@@ -55,8 +55,16 @@ class M_Pasien extends CI_Model {
 		)->get($this->kunjungan)->num_rows()+1;
 	}
 
-	public function hitung_usia() {
-		$from = new DateTime($this->input->post('pasien_tanggal_lahir'));
+	public function hitung_usia($usia=NULL) {
+		if($usia==NULL)
+		{
+			$x = $this->input->post('pasien_tanggal_lahir');
+		}
+		else
+		{
+			$x = $usia;
+		}
+		$from = new DateTime($x);
 		$to = new DateTime('today');
 		return $from->diff($to)->y;
 	}
