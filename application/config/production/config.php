@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 |--------------------------------------------------------------------------
@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'https://'.$_SERVER['HTTP_HOST'].'/';
+$config['base_url'] = 'https://' . $_SERVER['HTTP_HOST'] . '/';
 
 /*
 |--------------------------------------------------------------------------
@@ -136,7 +136,7 @@ $config['subclass_prefix'] = 'MY_';
 | Note: This will NOT disable or override the CodeIgniter-specific
 |	autoloading (application/config/autoload.php)
 */
-$config['composer_autoload'] = FALSE;
+$config['composer_autoload'] = "./vendor/autoload.php";
 
 /*
 |--------------------------------------------------------------------------
@@ -282,7 +282,7 @@ $config['log_date_format'] = 'Y-m-d H:i:s';
 | application/views/errors/ directory.  Use a full server path with trailing slash.
 |
 */
-$config['error_views_path'] = APPPATH .'errors/';
+$config['error_views_path'] = APPPATH . 'errors/';
 
 /*
 |--------------------------------------------------------------------------
@@ -380,8 +380,8 @@ $config['encryption_key'] = 'akasaka';
 $config['sess_driver'] = 'database';
 $config['sess_cookie_name'] = 'ak_cookie';
 $config['sess_expiration'] = 7200;
-$config['sess_save_path'] = 'ak_data_sistem_log';
-$config['sess_match_ip'] = TRUE;
+$config['sess_save_path'] = 'ak_data_system_log';
+$config['sess_match_ip'] = FALSE;
 $config['sess_time_to_update'] = 300;
 $config['sess_regenerate_destroy'] = TRUE;
 
@@ -448,11 +448,11 @@ $config['global_xss_filtering'] = TRUE;
 | 'csrf_regenerate' = Regenerate token on every submission
 | 'csrf_exclude_uris' = Array of URIs which ignore CSRF checks
 */
-$config['csrf_protection'] = TRUE;
+$config['csrf_protection'] = FALSE;
 $config['csrf_token_name'] = 'akasaka_token';
 $config['csrf_cookie_name'] = 'akasaka_csrf_cookie';
 $config['csrf_expire'] = 7200;
-$config['csrf_regenerate'] = FALSE;
+$config['csrf_regenerate'] = TRUE;
 $config['csrf_exclude_uris'] = array();
 
 /*

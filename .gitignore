@@ -1,4 +1,11 @@
-application/config/config.php
-application/config/database.php
-database/*
-index.php
+# Files Extensions
+.DS_Store
+composer.lock
+
+# Folders
+application/cache/*
+application/logs/*
+application/config/development/*
+.vscode/
+.well-known/
+vendor/*
