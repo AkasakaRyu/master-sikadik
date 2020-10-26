@@ -25,7 +25,7 @@ class Pasien extends CI_Controller {
 		$datatb = array();
 		foreach($list as $data) {
 			if($data->pasien_tanggal_lahir!="0000-00-00" OR $data->pasien_tanggal_lahir=="") {
-				$usia = $this->m->hitung_usia_detail($data->pasien_tanggal_lahir);
+				$usia = $this->m->hitung_usia($data->pasien_tanggal_lahir);
 			} else {
 				$usia = $data->pasien_usia;
 			}
@@ -94,10 +94,19 @@ class Pasien extends CI_Controller {
 			$pasien = array(
 				'pasien_id' => $id,
 				'pasien_nama' => $this->input->post('pasien_nama'),
+				'pasien_alias' => $this->input->post('pasien_alias'),
+				'no_ktp' => $this->input->post('no_ktp'),
+				'no_bpjs' => $this->input->post('no_bpjs'),
+				'no_telepon' => $this->input->post('no_telepon'),
+				'no_hp' => $this->input->post('no_hp'),
 				'pasien_jenis_kelamin' => $this->input->post('pasien_jenis_kelamin'),
 				'pasien_usia' => $usia,
+				'pasien_tempat_lahir' => $this->input->post('pasien_tempat_lahir'),
 				'pasien_tanggal_lahir' => $this->input->post('pasien_tanggal_lahir'),
 				'pasien_alamat' => $this->input->post('pasien_alamat'),
+				'bpjs' => $this->input->post('bpjs'),
+				'terapi' => $this->input->post('terapi'),
+				'alergi_obat' => $this->input->post('alergi_obat'),
 				'pasien_status' => $status,
 				'total_kunjungan_pasien' => $total_kunjungan,
 			);
@@ -123,10 +132,18 @@ class Pasien extends CI_Controller {
 		} else {
 			$data = array(
 				'pasien_nama' => $this->input->post('pasien_nama'),
+				'pasien_alias' => $this->input->post('pasien_alias'),
+				'no_ktp' => $this->input->post('no_ktp'),
+				'no_bpjs' => $this->input->post('no_bpjs'),
+				'no_telepon' => $this->input->post('no_telepon'),
+				'no_hp' => $this->input->post('no_hp'),
 				'pasien_jenis_kelamin' => $this->input->post('pasien_jenis_kelamin'),
-				'pasien_usia' => $usia,
+				'pasien_tempat_lahir' => $this->input->post('pasien_tempat_lahir'),
 				'pasien_tanggal_lahir' => $this->input->post('pasien_tanggal_lahir'),
-				'pasien_alamat' => $this->input->post('pasien_alamat')
+				'pasien_alamat' => $this->input->post('pasien_alamat'),
+				'bpjs' => $this->input->post('bpjs'),
+				'terapi' => $this->input->post('terapi'),
+				'alergi_obat' => $this->input->post('alergi_obat')
 			);
 			$this->m->edit($data);
 			$pesan = "Data Berhasil di Perbaharui";
@@ -139,11 +156,20 @@ class Pasien extends CI_Controller {
 		$data = array(
 			'pasien_id' => $res->pasien_id,
 			'pasien_nama' => $res->pasien_nama,
+			'pasien_alias' => $res->pasien_alias,
+			'no_ktp' => $res->no_ktp,
+			'no_bpjs' => $res->no_bpjs,
+			'no_telepon' => $res->no_telepon,
+			'no_hp' => $res->no_hp,
 			'pasien_jenis_kelamin' => $res->pasien_jenis_kelamin,
 			'pasien_usia' => $res->pasien_usia,
+			'pasien_tempat_lahir' => $res->pasien_tempat_lahir,
 			'pasien_tanggal_lahir' => $res->pasien_tanggal_lahir,
 			'kunjungan_tanggal' => $res->kunjungan_tanggal,
-			'pasien_alamat' => $res->pasien_alamat
+			'pasien_alamat' => $res->pasien_alamat,
+			'bpjs' => $res->bpjs,
+			'terapi' => $res->terapi,
+			'alergi_obat' => $res->alergi_obat
 		);
 		echo json_encode($data);
 	}

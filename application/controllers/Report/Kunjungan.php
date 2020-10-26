@@ -24,10 +24,13 @@ class Kunjungan extends CI_Controller {
 		$datatb = array();
 		$no = 0;
 		foreach($list as $data) {
-			if($data->usia==0 OR $data->usia=="") {
+			if($data->pasien_tanggal_lahir!="0000-00-00" OR $data->pasien_tanggal_lahir=="") 
+			{
 				$usia = $this->m->hitung_usia_detail($data->pasien_tanggal_lahir);
-			} else {
-				$usia = $data->usia;
+			} 
+			else 
+			{
+				$usia = $data->pasien_usia;
 			}
 			$no++;
 			$row = array();
