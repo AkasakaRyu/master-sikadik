@@ -1,0 +1,130 @@
+ERROR - 2019-01-23 10:22:08 --> 404 Page Not Found: Data
+ERROR - 2019-01-23 10:34:19 --> 404 Page Not Found: Dashboard
+ERROR - 2019-01-23 10:43:49 --> 404 Page Not Found: Data
+ERROR - 2019-01-23 10:49:37 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 10:49:39 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 10:49:43 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 10:49:46 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 10:54:26 --> 404 Page Not Found: Data
+ERROR - 2019-01-23 11:54:39 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Pasien /usr/local/var/www/master-sikadik/system/core/Loader.php 348
+ERROR - 2019-01-23 12:00:36 --> Severity: Notice --> Array to string conversion /usr/local/var/www/master-sikadik/system/helpers/form_helper.php 972
+ERROR - 2019-01-23 12:10:08 --> Severity: error --> Exception: syntax error, unexpected ')' /usr/local/var/www/master-sikadik/application/controllers/Data/Pasien.php 81
+ERROR - 2019-01-23 12:10:53 --> Severity: error --> Exception: syntax error, unexpected ')' /usr/local/var/www/master-sikadik/application/controllers/Data/Pasien.php 81
+ERROR - 2019-01-23 12:12:13 --> Severity: error --> Exception: syntax error, unexpected ')' /usr/local/var/www/master-sikadik/application/controllers/Data/Pasien.php 81
+ERROR - 2019-01-23 12:15:02 --> Severity: Notice --> Undefined property: Pasien::$data_pasien /usr/local/var/www/master-sikadik/system/core/Model.php 73
+ERROR - 2019-01-23 12:15:02 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `pasien_id` LIKE '%G%' ESCAPE '!'' at line 2 - Invalid query: SELECT *
+WHERE `pasien_id` LIKE '%G%' ESCAPE '!'
+ERROR - 2019-01-23 12:15:07 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 12:15:12 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 12:15:42 --> Severity: Notice --> Undefined property: Pasien::$data_pasien /usr/local/var/www/master-sikadik/system/core/Model.php 73
+ERROR - 2019-01-23 12:15:42 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `pasien_id` LIKE '%G%' ESCAPE '!'' at line 2 - Invalid query: SELECT *
+WHERE `pasien_id` LIKE '%G%' ESCAPE '!'
+ERROR - 2019-01-23 12:17:51 --> Severity: Notice --> Undefined property: Pasien::$data_pasien /usr/local/var/www/master-sikadik/system/core/Model.php 73
+ERROR - 2019-01-23 12:17:51 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `pasien_id` LIKE '%%' ESCAPE '!'' at line 2 - Invalid query: SELECT *
+WHERE `pasien_id` LIKE '%%' ESCAPE '!'
+ERROR - 2019-01-23 12:18:06 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 12:18:42 --> Severity: Notice --> Undefined variable: kunjungan /usr/local/var/www/master-sikadik/application/controllers/Data/Pasien.php 84
+ERROR - 2019-01-23 12:19:08 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 12:19:32 --> Severity: Notice --> Undefined variable: res /usr/local/var/www/master-sikadik/application/controllers/Data/Pasien.php 97
+ERROR - 2019-01-23 12:20:15 --> Severity: error --> Exception: syntax error, unexpected '}' /usr/local/var/www/master-sikadik/application/controllers/Data/Pasien.php 86
+ERROR - 2019-01-23 12:20:23 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 12:21:21 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 12:22:16 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 12:22:25 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 12:22:32 --> Query error: Column 'pasien_id' in where clause is ambiguous - Invalid query: SELECT *
+FROM `ak_data_pasien`
+JOIN `ak_data_pasien_kunjungan` ON `ak_data_pasien_kunjungan`.`pasien_id`=`ak_data_pasien`.`pasien_id`
+WHERE `pasien_id` = 'G000001'
+ERROR - 2019-01-23 12:22:35 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 12:23:54 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 12:24:27 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 12:25:23 --> Query error: Column 'pasien_id' in where clause is ambiguous - Invalid query: SELECT *
+FROM `ak_data_pasien`
+JOIN `ak_data_pasien_kunjungan` ON `ak_data_pasien_kunjungan`.`pasien_id`=`ak_data_pasien`.`pasien_id`
+WHERE `pasien_id` = 'G000001'
+ERROR - 2019-01-23 12:26:33 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 12:26:44 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 12:27:30 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 12:28:49 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 12:29:20 --> Query error: Cannot add or update a child row: a foreign key constraint fails (`sikadik`.`ak_data_pasien_kunjungan`, CONSTRAINT `ak_data_pasien_kunjungan_ibfk_1` FOREIGN KEY (`pasien_id`) REFERENCES `ak_data_pasien` (`pasien_id`) ON DELETE CASCADE ON UPDATE CASCADE) - Invalid query: INSERT INTO `ak_data_pasien_kunjungan` (`pasien_id`, `kunjungan_tanggal`) VALUES ('G000002', '2019-01-24')
+ERROR - 2019-01-23 12:30:34 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 12:30:53 --> Severity: Notice --> Undefined variable: id /usr/local/var/www/master-sikadik/application/controllers/Data/Pasien.php 87
+ERROR - 2019-01-23 12:30:53 --> Query error: Column 'pasien_id' cannot be null - Invalid query: INSERT INTO `ak_data_pasien_kunjungan` (`pasien_id`, `kunjungan_tanggal`) VALUES (NULL, '2019-01-11')
+ERROR - 2019-01-23 12:31:11 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 12:31:19 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 12:31:24 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 12:32:47 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 12:37:14 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 12:42:28 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 12:42:30 --> 404 Page Not Found: Data/Pasien/autocomplete_pasien
+ERROR - 2019-01-23 12:42:39 --> 404 Page Not Found: Data/Pasien/autocomplete_pasien
+ERROR - 2019-01-23 12:42:55 --> 404 Page Not Found: Data/Pasien/autocomplete_pasien
+ERROR - 2019-01-23 12:42:57 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 12:44:27 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 12:44:50 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:02:49 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:02:59 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:03:09 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:03:11 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:06:26 --> Severity: Notice --> Undefined variable: id /usr/local/var/www/master-sikadik/application/controllers/Data/Pasien.php 115
+ERROR - 2019-01-23 16:06:26 --> Query error: Column 'pasien_id' cannot be null - Invalid query: INSERT INTO `ak_data_pasien_kunjungan` (`pasien_id`, `kunjungan_tanggal`) VALUES (NULL, '2019-01-24')
+ERROR - 2019-01-23 16:06:31 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:07:56 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:08:22 --> Query error: Duplicate entry '' for key 'PRIMARY' - Invalid query: INSERT INTO `ak_data_pasien` (`pasien_status`, `total_kunjungan_pasien`) VALUES ('Lama', 3)
+ERROR - 2019-01-23 16:11:46 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:12:09 --> Severity: Notice --> Undefined variable: id /usr/local/var/www/master-sikadik/application/controllers/Data/Pasien.php 115
+ERROR - 2019-01-23 16:12:09 --> Query error: Column 'pasien_id' cannot be null - Invalid query: INSERT INTO `ak_data_pasien_kunjungan` (`pasien_id`, `kunjungan_tanggal`) VALUES (NULL, '2019-01-24')
+ERROR - 2019-01-23 16:13:24 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:14:34 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:15:00 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:15:30 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:16:03 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:16:05 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:17:03 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:17:43 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:18:19 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:18:50 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:19:01 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:19:32 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:19:47 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:20:17 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:20:47 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:34:29 --> 404 Page Not Found: Report
+ERROR - 2019-01-23 16:41:23 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:41:25 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:41:28 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:41:35 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:42:45 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:43:04 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:43:23 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:43:47 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:45:21 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:46:30 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:46:38 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:47:02 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:49:40 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 16:49:40 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 17:00:05 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'fathtech_sikadik'@'localhost' (using password: YES) /usr/local/var/www/master-sikadik/system/database/drivers/mysqli/mysqli_driver.php 201
+ERROR - 2019-01-23 17:00:05 --> Unable to connect to the database
+ERROR - 2019-01-23 17:00:18 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'fathtech_sikadik'@'localhost' (using password: YES) /usr/local/var/www/master-sikadik/system/database/drivers/mysqli/mysqli_driver.php 201
+ERROR - 2019-01-23 17:00:18 --> Unable to connect to the database
+ERROR - 2019-01-23 17:03:12 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'fathtech_sikadik'@'localhost' (using password: YES) /usr/local/var/www/master-sikadik/system/database/drivers/mysqli/mysqli_driver.php 201
+ERROR - 2019-01-23 17:03:12 --> Unable to connect to the database
+ERROR - 2019-01-23 17:07:15 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'fathtech_sikadik'@'localhost' (using password: YES) /usr/local/var/www/master-sikadik/system/database/drivers/mysqli/mysqli_driver.php 201
+ERROR - 2019-01-23 17:07:15 --> Unable to connect to the database
+ERROR - 2019-01-23 17:07:15 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'fathtech_sikadik'@'localhost' (using password: YES) /usr/local/var/www/master-sikadik/system/database/drivers/mysqli/mysqli_driver.php 201
+ERROR - 2019-01-23 17:07:15 --> Unable to connect to the database
+ERROR - 2019-01-23 18:12:28 --> Severity: Notice --> Undefined property: stdClass::$usia /usr/local/var/www/master-sikadik/application/controllers/Data/Pasien.php 27
+ERROR - 2019-01-23 18:12:39 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 18:12:39 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 18:12:41 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 18:12:41 --> Severity: Notice --> Undefined property: stdClass::$usia /usr/local/var/www/master-sikadik/application/controllers/Data/Pasien.php 27
+ERROR - 2019-01-23 18:13:15 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 18:13:15 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 18:13:15 --> Severity: Notice --> Undefined property: stdClass::$usia /usr/local/var/www/master-sikadik/application/controllers/Data/Pasien.php 27
+ERROR - 2019-01-23 18:13:19 --> Severity: Notice --> Undefined property: stdClass::$usia /usr/local/var/www/master-sikadik/application/controllers/Data/Pasien.php 27
+ERROR - 2019-01-23 18:13:21 --> Severity: Notice --> Undefined property: stdClass::$usia /usr/local/var/www/master-sikadik/application/controllers/Data/Pasien.php 27
+ERROR - 2019-01-23 18:13:40 --> Severity: Notice --> Undefined property: stdClass::$usia /usr/local/var/www/master-sikadik/application/controllers/Data/Pasien.php 30
+ERROR - 2019-01-23 18:13:41 --> Severity: Notice --> Undefined property: stdClass::$usia /usr/local/var/www/master-sikadik/application/controllers/Data/Pasien.php 30
+ERROR - 2019-01-23 18:15:34 --> 404 Page Not Found: Assets
+ERROR - 2019-01-23 18:15:34 --> 404 Page Not Found: Assets
